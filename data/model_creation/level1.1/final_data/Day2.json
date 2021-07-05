@@ -1,0 +1,609 @@
+{
+   "Day2": {
+      "Threshold": 28,
+      "n_clusters_distortion": 7,
+      "PercentUsrCluster": [
+         24.153498871331827,
+         27.915726109857037,
+         16.779533483822423,
+         15.425131677953349,
+         6.094808126410835,
+         7.223476297968396,
+         2.407825432656132
+      ],
+      "TransitionMatricesByCluster": [
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.2544529262,
+               "P1-Norte": 1.9083969466,
+               "PB-Este": 1.6539440204,
+               "PB-Norte": 36.7684478372,
+               "SegundaPlanta": 0.1272264631,
+               "Sotano": 0.1272264631
+            },
+            "P1-Este": {
+               "IN": 1.0178117048,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.1272264631,
+               "PB-Norte": 0.7633587786,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "P1-Norte": {
+               "IN": 1.1450381679,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 4.834605598,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "PB-Este": {
+               "IN": 1.1450381679,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 2.417302799,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.1272264631
+            },
+            "PB-Norte": {
+               "IN": 37.1501272265,
+               "OUT": 0.0,
+               "P1-Este": 1.5267175573,
+               "P1-Norte": 3.8167938931,
+               "PB-Este": 1.9083969466,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 1.3994910941,
+               "Sotano": 0.0
+            },
+            "SegundaPlanta": {
+               "IN": 0.3816793893,
+               "OUT": 0.0,
+               "P1-Este": 0.1272264631,
+               "P1-Norte": 0.2544529262,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.7633587786,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "Sotano": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.2544529262,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            }
+         },
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.7142857143,
+               "P1-Norte": 0.4761904762,
+               "PB-Este": 41.1904761905,
+               "PB-Norte": 0.9523809524,
+               "SegundaPlanta": 0.3571428571,
+               "Sotano": 0.4761904762
+            },
+            "P1-Este": {
+               "IN": 0.3571428571,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 2.8571428571,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "P1-Norte": {
+               "IN": 0.119047619,
+               "OUT": 0.0,
+               "P1-Este": 0.119047619,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.3571428571,
+               "PB-Norte": 0.3571428571,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.119047619
+            },
+            "PB-Este": {
+               "IN": 42.619047619,
+               "OUT": 0.0,
+               "P1-Este": 2.380952381,
+               "P1-Norte": 0.4761904762,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.5952380952,
+               "SegundaPlanta": 0.0,
+               "Sotano": 1.3095238095
+            },
+            "PB-Norte": {
+               "IN": 0.5952380952,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.119047619,
+               "PB-Este": 1.1904761905,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "SegundaPlanta": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.3571428571,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "Sotano": {
+               "IN": 0.4761904762,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 1.4285714286,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            }
+         },
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 1.3412816692,
+               "P1-Norte": 27.2727272727,
+               "PB-Este": 0.8941877794,
+               "PB-Norte": 3.4277198212,
+               "SegundaPlanta": 0.2980625931
+            },
+            "P1-Este": {
+               "IN": 0.5961251863,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 3.7257824143,
+               "PB-Este": 0.1490312966,
+               "PB-Norte": 0.2980625931,
+               "SegundaPlanta": 0.0
+            },
+            "P1-Norte": {
+               "IN": 30.4023845007,
+               "OUT": 0.0,
+               "P1-Este": 2.9806259314,
+               "P1-Norte": 0.0,
+               "PB-Este": 2.3845007452,
+               "PB-Norte": 6.7064083458,
+               "SegundaPlanta": 2.2354694486
+            },
+            "PB-Este": {
+               "IN": 0.8941877794,
+               "OUT": 0.0,
+               "P1-Este": 0.2980625931,
+               "P1-Norte": 2.086438152,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.1490312966,
+               "SegundaPlanta": 0.1490312966
+            },
+            "PB-Norte": {
+               "IN": 1.043219076,
+               "OUT": 0.0,
+               "P1-Este": 0.1490312966,
+               "P1-Norte": 9.2399403875,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.2980625931
+            },
+            "SegundaPlanta": {
+               "IN": 0.2980625931,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 2.3845007452,
+               "PB-Este": 0.1490312966,
+               "PB-Norte": 0.1490312966,
+               "SegundaPlanta": 0.0
+            }
+         },
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 26.7651888342,
+               "P1-Norte": 1.1494252874,
+               "PB-Este": 3.1198686371,
+               "PB-Norte": 1.4778325123,
+               "SegundaPlanta": 1.1494252874,
+               "Sotano": 0.0
+            },
+            "P1-Este": {
+               "IN": 30.8702791461,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 2.6272577997,
+               "PB-Este": 8.5385878489,
+               "PB-Norte": 0.8210180624,
+               "SegundaPlanta": 1.3136288998,
+               "Sotano": 0.1642036125
+            },
+            "P1-Norte": {
+               "IN": 0.4926108374,
+               "OUT": 0.0,
+               "P1-Este": 3.2840722496,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.1642036125,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "PB-Este": {
+               "IN": 1.1494252874,
+               "OUT": 0.0,
+               "P1-Este": 10.5090311987,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.328407225,
+               "SegundaPlanta": 0.328407225,
+               "Sotano": 0.0
+            },
+            "PB-Norte": {
+               "IN": 0.328407225,
+               "OUT": 0.0,
+               "P1-Este": 1.6420361248,
+               "P1-Norte": 0.1642036125,
+               "PB-Este": 0.328407225,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.1642036125,
+               "Sotano": 0.0
+            },
+            "SegundaPlanta": {
+               "IN": 0.8210180624,
+               "OUT": 0.0,
+               "P1-Este": 1.9704433498,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.1642036125,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "Sotano": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.1642036125,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            }
+         },
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 6.5340909091,
+               "P1-Norte": 1.1363636364,
+               "PB-Este": 9.375,
+               "PB-Norte": 4.5454545455,
+               "SegundaPlanta": 1.1363636364,
+               "Sotano": 0.2840909091
+            },
+            "P1-Este": {
+               "IN": 2.8409090909,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.5681818182,
+               "PB-Este": 8.8068181818,
+               "PB-Norte": 0.2840909091,
+               "SegundaPlanta": 1.1363636364,
+               "Sotano": 0.0
+            },
+            "P1-Norte": {
+               "IN": 1.9886363636,
+               "OUT": 0.0,
+               "P1-Este": 0.8522727273,
+               "P1-Norte": 0.0,
+               "PB-Este": 2.5568181818,
+               "PB-Norte": 2.5568181818,
+               "SegundaPlanta": 1.4204545455,
+               "Sotano": 0.0
+            },
+            "PB-Este": {
+               "IN": 9.6590909091,
+               "OUT": 0.0,
+               "P1-Este": 5.1136363636,
+               "P1-Norte": 2.5568181818,
+               "PB-Este": 0.0,
+               "PB-Norte": 8.2386363636,
+               "SegundaPlanta": 1.9886363636,
+               "Sotano": 1.1363636364
+            },
+            "PB-Norte": {
+               "IN": 7.1022727273,
+               "OUT": 0.0,
+               "P1-Este": 0.2840909091,
+               "P1-Norte": 3.4090909091,
+               "PB-Este": 6.25,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.5681818182,
+               "Sotano": 0.0
+            },
+            "SegundaPlanta": {
+               "IN": 1.1363636364,
+               "OUT": 0.0,
+               "P1-Este": 0.8522727273,
+               "P1-Norte": 1.7045454545,
+               "PB-Este": 0.8522727273,
+               "PB-Norte": 1.7045454545,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "Sotano": {
+               "IN": 0.2840909091,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.8522727273,
+               "PB-Norte": 0.2840909091,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            }
+         },
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 2.2556390977,
+               "P1-Norte": 1.1278195489,
+               "PB-Este": 4.1353383459,
+               "PB-Norte": 1.8796992481,
+               "SegundaPlanta": 26.6917293233,
+               "Sotano": 0.0
+            },
+            "P1-Este": {
+               "IN": 1.1278195489,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 6.3909774436,
+               "Sotano": 0.0
+            },
+            "P1-Norte": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.3759398496,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 3.3834586466,
+               "Sotano": 0.0
+            },
+            "PB-Este": {
+               "IN": 1.1278195489,
+               "OUT": 0.0,
+               "P1-Este": 0.3759398496,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.3759398496,
+               "SegundaPlanta": 3.7593984962,
+               "Sotano": 0.0
+            },
+            "PB-Norte": {
+               "IN": 0.3759398496,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.3759398496,
+               "PB-Este": 0.3759398496,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 2.6315789474,
+               "Sotano": 0.0
+            },
+            "SegundaPlanta": {
+               "IN": 33.0827067669,
+               "OUT": 0.0,
+               "P1-Este": 4.5112781955,
+               "P1-Norte": 2.2556390977,
+               "PB-Este": 1.1278195489,
+               "PB-Norte": 1.5037593985,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.3759398496
+            },
+            "Sotano": {
+               "IN": 0.3759398496,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "P1-Norte": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "SegundaPlanta": 0.0,
+               "Sotano": 0.0
+            }
+         },
+         {
+            "IN": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "Sotano": 0.0
+            },
+            "OUT": {
+               "IN": 0.0,
+               "OUT": 0.0,
+               "P1-Este": 0.6493506494,
+               "PB-Este": 3.2467532468,
+               "PB-Norte": 1.2987012987,
+               "Sotano": 15.5844155844
+            },
+            "P1-Este": {
+               "IN": 0.6493506494,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "PB-Este": 0.6493506494,
+               "PB-Norte": 0.6493506494,
+               "Sotano": 0.6493506494
+            },
+            "PB-Este": {
+               "IN": 2.5974025974,
+               "OUT": 0.0,
+               "P1-Este": 1.2987012987,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "Sotano": 26.6233766234
+            },
+            "PB-Norte": {
+               "IN": 0.6493506494,
+               "OUT": 0.0,
+               "P1-Este": 0.0,
+               "PB-Este": 0.0,
+               "PB-Norte": 0.0,
+               "Sotano": 1.2987012987
+            },
+            "Sotano": {
+               "IN": 16.8831168831,
+               "OUT": 0.0,
+               "P1-Este": 0.6493506494,
+               "PB-Este": 26.6233766234,
+               "PB-Norte": 0.0,
+               "Sotano": 0.0
+            }
+         }
+      ],
+      "UsrCreationTime": 1.0358433734833334,
+      "ZonesNames": [
+         "Sotano",
+         "PB-Norte",
+         "PB-Este",
+         "P1-Este",
+         "P1-Norte",
+         "SegundaPlanta"
+      ],
+      "MeanTimeOnZonesByCluster": [
+         [
+            15.541666666666666,
+            44.959212962962944,
+            13.36206896551724,
+            19.907777777777778,
+            5.206737588652483,
+            11.275
+         ],
+         [
+            6.314583333333333,
+            7.004166666666666,
+            39.48375209380234,
+            6.61172839506173,
+            7.9074074074074066,
+            4.044444444444444
+         ],
+         [
+            0,
+            10.782638888888892,
+            18.525694444444444,
+            10.9625,
+            62.83922222222222,
+            13.232500000000005
+         ],
+         [
+            2.0166666666666666,
+            7.9937499999999995,
+            8.174444444444443,
+            45.26141975308642,
+            10.72638888888889,
+            6.126851851851852
+         ],
+         [
+            11.816666666666666,
+            40.38172043010755,
+            36.22970297029702,
+            26.578819444444438,
+            17.955555555555556,
+            15.221969696969696
+         ],
+         [
+            7.066666666666666,
+            6.114999999999999,
+            12.83,
+            11.426666666666666,
+            11.475,
+            36.76505847953216
+         ],
+         [
+            26.492647058823525,
+            0.611111111111111,
+            7.485106382978726,
+            2.895833333333333,
+            0,
+            0
+         ]
+      ]
+   }
+}

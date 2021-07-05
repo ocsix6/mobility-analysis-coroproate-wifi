@@ -1,0 +1,46 @@
+{
+   "Sotano": [
+      "AP-AT-02-W01",
+      "AP-AT-02-W02",
+      "AP-AT-02-W04"
+   ],
+   "PB-Norte": [
+      "AP-AT-02-W06",
+      "AP-AT-02-W07",
+      "AP-AT-06-W08",
+      "AP-AT-06-W09",
+      "AP-AT-02-W10",
+      "AP-AT-02-W11",
+      "AP-AT-06-W39"
+   ],
+   "PB-Este": [
+      "AP-AT-02-W14",
+      "AP-AT-02-W15",
+      "AP-AT-02-W16",
+      "AP-AT-02-W17",
+      "AP-AT-02-W18",
+      "AP-AT-11-W41"
+   ],
+   "P1-Este": [
+      "AP-AT-11-W19",
+      "AP-AT-03-W21",
+      "AP-AT-03-W23",
+      "AP-AT-03-W24",
+      "AP-AT-03-W25",
+      "AP-AT-03-W26"
+   ],
+   "P2-Norte": [
+      "AP-AT-06-W27",
+      "AP-AT-06-W28",
+      "AP-AT-06-W29",
+      "AP-AT-06-W30",
+      "AP-AT-06-W31",
+      "AP-AT-06-W32",
+      "AP-AT-06-W33"
+   ],
+   "SegundaPlanta": [
+      "AP-AT-06-W34",
+      "AP-AT-03-W35",
+      "AP-AT-03-W36-37"
+   ]
+}

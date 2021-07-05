@@ -1,0 +1,17 @@
+# PipEnv
+Pipfile.lock
+Pipfile
+
+# Data
+*.csv
+
+# Private config files
+db.ini
+
+# Mac
+.DS_Store
+
+# Other
+.ipynb_checkpoints/
+.virtual_documents/
+.idea/
