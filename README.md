@@ -1,4 +1,4 @@
-# User mobility analysis in a coorporate WiFi network using data mining techniques.
+# User mobility analysis in a corporate WiFi network using data mining techniques.
 
 ## Explanation
 
